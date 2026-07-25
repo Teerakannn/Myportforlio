@@ -1,0 +1,19 @@
+body {
+    font-family:  arial, sans-serif;
+    background-color: #f4f4f6;
+}
+
+
+.custom-header {
+    background: linear-gradient(140deg, #166d3b, #232323);
+}
+
+
+.cert-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px -3px rgba(0, 0, 0, 0.15) !important;
+}
